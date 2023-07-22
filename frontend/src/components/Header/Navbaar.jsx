@@ -13,9 +13,9 @@ import { useHistory } from 'react-router';
 import { makeStyles } from '@material-ui/core';
 import { Drawer, IconButton, List, ListItem } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import Rightheader from './rightheader';
 import { getProducts } from '../redux/actions/action';
 import { useSelector, useDispatch } from "react-redux";
+import Rightheader from './rightheader';
 
 
 const usestyle = makeStyles({
