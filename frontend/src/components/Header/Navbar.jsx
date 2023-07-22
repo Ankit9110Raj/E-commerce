@@ -1,7 +1,12 @@
 import React from 'react'
+import "./Navbar.css";
 
-export default function Navbar() {
+const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div>
+      <img src=''/>
+      </div>
   )
 }
+
+export default Navbar

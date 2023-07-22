@@ -4,7 +4,9 @@ import NavbarTop from './components/Header/Navbar';
 
 function App() {
   return (
+    <>
     <NavbarTop/>
+    </>
   );
 }
 
